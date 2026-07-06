@@ -70,7 +70,7 @@ Traditional logistics systems often identify delays only after they occur. This 
 Experience the interactive dashboard online without installing the project locally.
 
 > 🚀 **Live Streamlit Application:**  
-> **🔗 https://YOUR-STREAMLIT-APP.streamlit.app**
+> **🔗 https://apllatedeliveryriskprediction-rsbgupk7iluyngusxdw3jm.streamlit.app/**
 
 The deployed dashboard includes:
 
