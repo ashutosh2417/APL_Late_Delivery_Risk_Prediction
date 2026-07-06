@@ -259,6 +259,16 @@ The dataset contains information such as:
 
 These variables are used to predict whether an order is likely to experience a delivery delay.
 
+> **Note**
+>
+> The original dataset (`APL_Logistics.csv`) is not included in this repository because it exceeds GitHub's file size limitations for web uploads.
+>
+> To run this project locally:
+>
+> 1. Download the original dataset.
+> 2. Place `APL_Logistics.csv` inside the `data/` directory.
+> 3. Run the preprocessing and training pipeline before launching the dashboard.
+
 ---
 # 🧠 Machine Learning Workflow
 
