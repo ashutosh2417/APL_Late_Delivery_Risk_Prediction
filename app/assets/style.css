@@ -1,0 +1,84 @@
+/* ======================================================
+   APL LOGISTICS DASHBOARD THEME
+====================================================== */
+
+.stApp {
+    background-color: #f5f7fb;
+}
+
+/* Hide Streamlit default UI */
+
+#MainMenu {
+    visibility: hidden;
+}
+
+footer {
+    visibility: hidden;
+}
+
+header {
+    visibility: hidden;
+}
+
+/* ======================================================
+   SIDEBAR
+====================================================== */
+
+section[data-testid="stSidebar"] {
+    background: linear-gradient(180deg, #0f172a, #1e3a8a);
+}
+
+section[data-testid="stSidebar"] * {
+    color: white;
+}
+
+section[data-testid="stSidebar"] h1,
+section[data-testid="stSidebar"] h2,
+section[data-testid="stSidebar"] h3 {
+    color: white;
+}
+
+/* ======================================================
+   TITLES
+====================================================== */
+
+h1 {
+    color: #1e293b;
+    font-weight: 800;
+}
+
+h2 {
+    color: #334155;
+}
+
+h3 {
+    color: #475569;
+}
+/* ==========================================
+   KPI METRIC CARDS
+========================================== */
+
+div[data-testid="metric-container"] {
+    background: #ffffff;
+    border: 1px solid #dbe4f0;
+    padding: 18px;
+    border-radius: 16px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    transition: all 0.3s ease-in-out;
+}
+
+div[data-testid="metric-container"]:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 18px rgba(0,0,0,0.15);
+}
+
+div[data-testid="metric-container"] label {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+div[data-testid="metric-container"] div[data-testid="stMetricValue"] {
+    font-size: 28px;
+    font-weight: bold;
+    color: #1E3A8A;
+}
