@@ -26,11 +26,7 @@ def load_model():
 @st.cache_resource
 def load_preprocessor():
     return joblib.load("models/preprocessor.pkl")
-
-
-@st.cache_resource
-def load_feature_names():
-    return joblib.load("models/feature_names.pkl")
+    
 
 @st.cache_data
 def load_risk_predictions():
