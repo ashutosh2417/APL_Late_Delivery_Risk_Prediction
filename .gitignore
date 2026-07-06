@@ -1,0 +1,8 @@
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+models/*.pkl
+.env
+.streamlit/
+.DS_Store
