@@ -83,8 +83,6 @@ The deployed dashboard includes:
 
 Simply open the link above to explore the complete Machine Learning and Business Analytics solution.
 
-> **Note:** Replace the above URL with your Streamlit Cloud deployment link after publishing the application.
-
 ---
 
 # 🎯 Project Objectives
@@ -728,7 +726,7 @@ During the internship, I applied the complete data analytics lifecycle, includin
 
 # 👨‍💻 About the Developer
 
-## Ashu Pandit
+## Ashutosh Sharma
 
 MBA (Business Analytics)
 
